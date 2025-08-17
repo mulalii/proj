@@ -1,0 +1,96 @@
+/* styles.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0f0f0f;
+  color: #fff;
+}
+
+.hero {
+  background: url('C:\Users\munda\Saved Games\feb-2025-final-project-and-deployment-mulalii\prisonbars.jpg') center/cover no-repeat;
+  height: 100vh;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.hero button {
+  background-color: crimson;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.hero button:hover {
+  background-color: darkred;
+}
+
+section {
+  padding: 4rem 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.pillars ul {
+  list-style: none;
+  padding: 0;
+}
+
+.pillars li {
+  padding: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+.get-involved form {
+  display: flex;
+  flex-direction: column;
+}
+
+.get-involved input {
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border: none;
+}
+
+.get-involved button {
+  padding: 0.8rem;
+  background-color: crimson;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #111;
+  font-size: 0.9rem;
+}
